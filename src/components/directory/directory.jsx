@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import './directory.scss';
 import MenuItem from '../menu-item/menu-item';
+
+import './directory.scss';
 
 //Create class component because we need to store state values
 
