@@ -6,8 +6,8 @@ import './directory.scss';
 //Create class component because we need to store state values
 
 class Directory extends Component  {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
 
         this.state = {
             sections: [
